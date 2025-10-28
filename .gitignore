@@ -1,0 +1,28 @@
+# === Global ignore for all labs ===
+
+# Maven build output
+target/
+*.class
+*.jar
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+*.log
+
+# OS & temp
+.DS_Store
+Thumbs.db
+
+# Hadoop / Spark temporary logs
+*.crc
+*.out
+*.err
+*.log
+logs/
+derby.log
+
+# Python / notebooks (if future labs use them)
+__pycache__/
+*.ipynb_checkpoints/
